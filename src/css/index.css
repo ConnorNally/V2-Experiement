@@ -1,0 +1,31 @@
+/* Header   */
+
+
+.jumbotron h1{
+    color: rgb(81, 171, 255);
+    text-shadow: 2px 2px #000000;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+}
+
+#GR {
+    width: 50%;
+}
+
+/* Home */
+
+.row div {
+    transition: 0.4s ease-in-out;  
+    background-color: rgb(255, 255, 255);
+}
+
+.row div:hover {
+    background-color: aliceblue;
+}
