@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => (
-  <div className="py-2 fixed-bottom">
+  <div className="py-2 ">
     <div className="col-md-5">
       <ul className="nav">
         <li className="nav-item">

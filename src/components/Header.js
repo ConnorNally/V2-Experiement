@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => (
   <div>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <button
         className="navbar-toggler"
         type="button"
@@ -16,13 +16,13 @@ const Header = () => (
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item"> <NavLink className="nav-link mr-0" exact to="/">
               Home <span className="sr-only">(current)</span> </NavLink>
           </li>
-          <li className="nav-item"> <NavLink className="nav-link" to="/map">
-              Map </NavLink> 
+          <li className="nav-item"> <NavLink className="nav-link" to="/about">
+              About </NavLink> 
           </li>
           <li className="nav-item"> <NavLink className="nav-link" to="/images">
               Images </NavLink>
@@ -33,7 +33,7 @@ const Header = () => (
 
     <div className="jumbotron jumbotron-fluid bg-dark">
       <div className="container text-sm-center pt-5">
-        <h1 className="display-2">V2 Rockets</h1>
+        <h1 className="display-2">V2 ROCKETS</h1>
         <p className="lead">An API detailing V2 rocket hit locations</p>
       </div>
     </div>
