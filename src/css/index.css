@@ -107,6 +107,12 @@ div {
 
 /* Map */
 
+/* @media only screen and (max-width: 949px) {
+    #map {
+        width: 75%
+    }
+} */
+
 #map {
     margin: auto;
 }

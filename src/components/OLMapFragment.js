@@ -19,7 +19,8 @@ import {
 import { 
     ScaleLine,
     ZoomSlider,
-    defaults as DefaultControls
+    defaults as DefaultControls,
+    FullScreen
 } from 'ol/control'
 import {
     Style,
@@ -47,6 +48,7 @@ for (var i = 0; i < rocketData.length; i++) {
         anchorXUnits: 'fraction',
         anchorYUnits: 'pixels',
         opacity: 0.75,
+        scale: 0.75,
         src: icon
       })
     });
@@ -91,7 +93,7 @@ class OLMap extends React.Component {
         vectorLayer
       ],
       // Add in the following map controls
-      controls: DefaultControls().extend([new ZoomSlider(), new ScaleLine()]),
+      controls: DefaultControls().extend([new ZoomSlider(), new ScaleLine(), new FullScreen()]),
       // Render the tile layers in a map view with a Mercator projection
       view: new View({
         projection: 'EPSG:3857',
@@ -113,13 +115,14 @@ class OLMap extends React.Component {
       
     const style = {
       width: "75%",
-      height: "980px",
+      height: "800px",
       backgroundColor: "#cccccc",
     };
     return (
       <div>
-        <div className="container text-center mb-4">
+        <div className="container mb-4">
           <div className="row">
+          <h2 className="mt-4 mb-4">V2 Rocket Strike Map</h2>
             <div className="col-12">This map details the location of V2 Rocket strikes from 8th of September 1994, 
             to the final strike on 27th of March 1945. This information is provided by The Ministry of Home
             Security doument title "Big Ben".</div>
