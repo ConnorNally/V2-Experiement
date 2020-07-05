@@ -97,8 +97,8 @@ class OLMap extends React.Component {
       // Render the tile layers in a map view with a Mercator projection
       view: new View({
         projection: 'EPSG:3857',
-        center: [80000, 6650000],
-        zoom: 9,
+        center: [80000, 6670000],
+        zoom: 10,
       })
     });
 
@@ -133,6 +133,11 @@ class OLMap extends React.Component {
             <div id="map" className="mb-4" style={style}></div>
           </Grid>
         </Grid>
+            <div className="container mb-4">
+          <div className="row">
+        <div className="col-12">The total amount of rockets on the map is incomplete and will continue to be updated.</div>
+        </div>
+        </div>
       </div>
     );
   }
