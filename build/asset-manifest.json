@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ConnorNally/V2-Experiment/static/css/main.5ec0be46.chunk.css",
+    "main.js": "/ConnorNally/V2-Experiment/static/js/main.25e42c63.chunk.js",
+    "main.js.map": "/ConnorNally/V2-Experiment/static/js/main.25e42c63.chunk.js.map",
+    "runtime-main.js": "/ConnorNally/V2-Experiment/static/js/runtime-main.f50baab1.js",
+    "runtime-main.js.map": "/ConnorNally/V2-Experiment/static/js/runtime-main.f50baab1.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/ConnorNally/V2-Experiment/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.d790a8af.chunk.js": "/ConnorNally/V2-Experiment/static/js/2.d790a8af.chunk.js",
+    "static/js/2.d790a8af.chunk.js.map": "/ConnorNally/V2-Experiment/static/js/2.d790a8af.chunk.js.map",
+    "index.html": "/ConnorNally/V2-Experiment/index.html",
+    "precache-manifest.8def843f4e7fe9b3e2ac8a49fa86913a.js": "/ConnorNally/V2-Experiment/precache-manifest.8def843f4e7fe9b3e2ac8a49fa86913a.js",
+    "service-worker.js": "/ConnorNally/V2-Experiment/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/ConnorNally/V2-Experiment/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5ec0be46.chunk.css.map": "/ConnorNally/V2-Experiment/static/css/main.5ec0be46.chunk.css.map",
+    "static/js/2.d790a8af.chunk.js.LICENSE.txt": "/ConnorNally/V2-Experiment/static/js/2.d790a8af.chunk.js.LICENSE.txt",
+    "static/media/GRjapanese.jpg": "/ConnorNally/V2-Experiment/static/media/GRjapanese.0982fbec.jpg",
+    "static/media/mdb.min.css": "/ConnorNally/V2-Experiment/static/media/arrow_right.d9ccc77c.svg",
+    "static/media/index.css": "/ConnorNally/V2-Experiment/static/media/blueprints.c84589f5.jpg",
+    "static/media/engine.jpg": "/ConnorNally/V2-Experiment/static/media/engine.80f149f9.jpg",
+    "static/media/launch2.jpg": "/ConnorNally/V2-Experiment/static/media/launch2.8a1a9563.jpg",
+    "static/media/launch_site.jpg": "/ConnorNally/V2-Experiment/static/media/launch_site.1c38090f.jpg",
+    "static/media/strike.jpg": "/ConnorNally/V2-Experiment/static/media/strike.bfd42cc3.jpg",
+    "static/media/strike2.jpg": "/ConnorNally/V2-Experiment/static/media/strike2.34d06c68.jpg",
+    "static/media/strike3.jpg": "/ConnorNally/V2-Experiment/static/media/strike3.fcd27565.jpg",
+    "static/media/strike4.jpg": "/ConnorNally/V2-Experiment/static/media/strike4.44ec785f.jpg",
+    "static/media/strike5.jpg": "/ConnorNally/V2-Experiment/static/media/strike5.5262447e.jpg",
+    "static/media/strike6.jpg": "/ConnorNally/V2-Experiment/static/media/strike6.baf163ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f50baab1.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.d790a8af.chunk.js",
+    "static/css/main.5ec0be46.chunk.css",
+    "static/js/main.25e42c63.chunk.js"
+  ]
+}
